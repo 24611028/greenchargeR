@@ -1,0 +1,27 @@
+Package: greenchargeR
+Title: EV Charging Station Management System for Station Operators
+Version: 0.1.0
+Authors@R:
+    person(
+      "Reva", "Rahmaddani",
+      email = "24611028@students.uii.ac.id",
+      role = c("aut", "cre")
+    )
+Description: Package untuk membantu Operator Stasiun PT Green Charge
+    Indonesia dalam memantau penggunaan energi, mengelola tarif
+    pengisian, melihat KPI stasiun, memprediksi kebutuhan energi,
+    dan membuat laporan operasional otomatis berdasarkan use case
+    Sistem Pengisian Kendaraan Listrik.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    ggplot2
+Suggests:
+    knitr,
+    rmarkdown,
+    kableExtra,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

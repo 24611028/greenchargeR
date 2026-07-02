@@ -1,0 +1,19 @@
+---
+title: "laporan_bulanan_greencharge"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{laporan_bulanan_greencharge}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(greenchargeR)
+```
